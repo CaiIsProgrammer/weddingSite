@@ -6,7 +6,7 @@
     "react",
     "starter"
   ],
-  "homepage": "http://crunchycode.me/weddingSite/",
+  "homepage": "https://caiprogramming.github.io/weddingSite",
   "main": "src/index.js",
   "dependencies": {
     "react": "16.12.0",
