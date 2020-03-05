@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./styles.css";
 import DateCountdown from "react-date-countdown-timer";
 import Particles from "react-particles-js";
+import Icon from "./heart.svg";
 class App extends React.Component {
   render() {
     return (
@@ -29,10 +30,10 @@ class App extends React.Component {
                   }
                 },
                 shape: {
-                  type: ["images", "circle"],
+                  type: ["images"],
                   images: [
                     {
-                      src: "/heart.svg",
+                      src: Icon,
                       height: 500,
                       width: 500
                     }
