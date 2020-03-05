@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import "./styles.css";
 import DateCountdown from "react-date-countdown-timer";
 import Particles from "react-particles-js";
