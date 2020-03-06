@@ -22,16 +22,6 @@ export default class Part extends React.Component {
                   enable: false
                 }
               },
-              shape: {
-                type: ["images"],
-                images: [
-                  {
-                    src: Icon,
-                    height: 500,
-                    width: 500
-                  }
-                ]
-              },
               color: {
                 value: "#CCC"
               },
