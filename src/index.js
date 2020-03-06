@@ -9,7 +9,6 @@ class App extends React.Component {
       <div className="App">
         <h1>Count down to wedding</h1>
         <DateCountdown dateTo="June 1, 2020 00:00:00" />
-        <Part />
       </div>
     );
   }
