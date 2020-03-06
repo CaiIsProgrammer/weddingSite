@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
 import DateCountdown from "react-date-countdown-timer";
-import Particles from "react-particles-js";
+import Part from "./particles";
 import Icon from "./heart.svg";
 class App extends React.Component {
   render() {
@@ -10,6 +10,7 @@ class App extends React.Component {
       <div className="App">
         <h1>Count down to wedding</h1>
         <DateCountdown dateTo="June 1, 2020 00:00:00" />
+        <Part />
       </div>
     );
   }
