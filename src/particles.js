@@ -1,5 +1,6 @@
 import React from "react";
 import Particles from "react-particles-js";
+import Icon from "./heart.svg";
 export default class Part extends React.Component {
   render() {
     return (

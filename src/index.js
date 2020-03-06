@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./styles.css";
 import DateCountdown from "react-date-countdown-timer";
 import Part from "./particles";
-import Icon from "./heart.svg";
+
 class App extends React.Component {
   render() {
     return (
